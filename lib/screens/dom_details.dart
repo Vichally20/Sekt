@@ -93,3 +93,21 @@ class AboutDom extends StatelessWidget {
     );
   }
 }
+
+class DetailBody extends StatelessWidget {
+  const DetailBody({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return  Container(
+      padding: const EdgeInsets.all(20),
+      margin: const EdgeInsets.only(bottom: 30),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          Config.spaceSmall,
+        ],
+      ),
+    );
+  }
+}
